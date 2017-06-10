@@ -1,0 +1,8 @@
+puppet.conf — Puppet’s main config file. (Any node.)
+auth.conf — access control rules for the Puppet master’s network services. (Master only.)
+autosign.conf — a list of pre-approved certificate requests. (CA master only.)
+csr_attributes.yaml — optional data to be inserted into new certificate requests. (Any node.)
+device.conf — configuration for network devices managed by the puppet device command. (Any node acting as an intermediary to configure network devices.)
+fileserver.conf — configuration for additional fileserver mount points. (Master only.)
+hiera.yaml — global configuration for the Hiera data lookup system. Note that environments and modules can have their own hiera.yaml files. (Master, or standalone nodes running Puppet apply.)
+routes.yaml — advanced configuration of indirector behavior. (Master only.)
