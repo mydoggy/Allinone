@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Ci/Cd
 jobs
 role
 java
+=======
+ci/cd
+path
+role
+jobs
+commit
+>>>>>>> 6f3575f2e94d020c98fe562bd1a67a5d74c5ca99
 
